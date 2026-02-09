@@ -1,23 +1,12 @@
-
-/* Your CSS Code here. */.main-table {
-  width: 100%;
-  border: 1px solid black;
-  border-collapse: collapse;
-}
-
-.main-table th,
-.main-table td {
-  border: 1px solid black;
-  padding: 10px;
-  text-align: center;
-}
-
+.main-table,
 .nested-table {
   width: 100%;
   border: 1px solid black;
   border-collapse: collapse;
 }
 
+.main-table th,
+.main-table td,
 .nested-table th,
 .nested-table td {
   border: 1px solid black;
@@ -32,7 +21,6 @@
 }
 
 ul {
-  list-style-type: disc;
   padding-left: 20px;
   text-align: left;
 }

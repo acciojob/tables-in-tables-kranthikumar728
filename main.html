@@ -12,9 +12,27 @@
         <th colspan="2">Tables in Tables</th>
       </tr>
 
+      <!-- Nested Table 2 (MUST COME FIRST) -->
+      <tr>
+        <td colspan="2">
+          <table class="nested-table">
+            <tr>
+              <th>Nested Table 2</th>
+              <th>Column 1</th>
+              <th>Column 2</th>
+            </tr>
+            <tr>
+              <td>A</td>
+              <td>B</td>
+              <td>C</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+      <!-- Nested Table 1 -->
       <tr>
         <td>
-          <!-- Nested Table 1 -->
           <table class="nested-table">
             <tr>
               <th>Nested Table 1</th>
@@ -22,54 +40,37 @@
             <tr>
               <td>
                 <ul>
-                  <li>List item 1</li>
-                  <li>List item 2</li>
-                  <li>List item 3</li>
+                  <li>List item</li>
+                  <li>List item</li>
+                  <li>List item</li>
                 </ul>
               </td>
             </tr>
           </table>
         </td>
 
+        <!-- Nested Table 3 -->
         <td>
-          <!-- Nested Table 2 -->
-          <table class="nested-table">
-            <tr>
-              <th colspan="2">Nested Table 2</th>
-            </tr>
-            <tr>
-              <th>Column 1</th>
-              <th>Column 2</th>
-            </tr>
-            <tr>
-              <td>HTML</td>
-              <td>CSS</td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-
-      <tr>
-        <td>
-          <!-- Nested Table 3 -->
           <table class="nested-table">
             <tr>
               <th>Nested Table 3</th>
             </tr>
             <tr>
-              <td class="black-cell">HTML</td>
+              <td>Nested Table</td>
             </tr>
           </table>
         </td>
+      </tr>
 
-        <td>
-          <!-- Nested Table 4 -->
+      <!-- Nested Table 4 -->
+      <tr>
+        <td colspan="2">
           <table class="nested-table">
             <tr>
               <th>Nested Table 4</th>
             </tr>
             <tr>
-              <td>Practice makes perfect</td>
+              <td class="black-cell">HTML</td>
             </tr>
           </table>
         </td>

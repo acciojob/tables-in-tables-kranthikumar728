@@ -1,2 +1,2 @@
-// No JavaScript functionality required
-console.log("Nested tables loaded successfully");
+// No JS required for Cypress validation
+console.log("Nested tables test-ready");
